@@ -1,0 +1,217 @@
+body {
+  background-image: url(../images/gold.jpg);
+  margin: 0;
+  text-align: left;
+  font-family: 'Montserrat, sans-serif';
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 100;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 250%;
+  color: #f8aa27;
+  font-style: italic;
+  text-align: center;
+  border: 15px black solid;
+  padding: 10px;
+  text-shadow: -1px -1px 0 #000;
+}
+
+h2 {
+  color: #eaa81b;
+  font-size: 250%;
+  text-align: center;
+  border: 10px gold solid;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+p {
+  color: #f8aa27;
+  font-size: 150%;
+  margin-bottom: 100px;
+}
+
+div {
+  background-color: #eaa81b;
+}
+header {
+  background: Black;
+  margin: 0;
+}
+header::after {
+  content:'';
+  display: table;
+  clear: both;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 40px;
+  padding-top: 20px;
+  position: relative;
+}
+nav a {
+  color: #eaa81b;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav a:hover {
+  color: #f8aa27;
+}
+nav a::before {
+  content: '';
+  display: block;
+  height: 10px;
+  background-color: #eaa81b;
+  position: absolute;
+  top: -100%;
+}
+nav a:hover::before {
+  width: 100%;
+}
+.logo {
+  float: left;
+  height: 125px;
+  width: 200px;
+}
+.box {
+  background-image: url(../images/band.jpg);
+  padding: 300px;
+  margin: 25px;
+  overflow: hidden;
+}
+.container {
+  position: fixed; top: 0;
+  width: 100%;
+  margin: 0;
+}
+.about {
+  background: url(../images/band2.jpeg) no-repeat left;
+  background-color: black;
+  text-align: center;
+  padding: 100px 0;
+  overflow: hidden;
+  background-size: 35%;
+
+}
+.inner-about {
+  width: 55%;
+  float: right;
+  background-color: black;
+  padding: 90px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+.music {
+ width: 500px;
+}
+.event-container {
+  font-family:sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.event-container .year {
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+.event-container .event {
+  box-shadow: 0 4px 16px -8px rgba(0,
+    0, 0, 0.4);
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+.event .event-left {
+  background: Black;
+  min-width: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 48px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px 0 0 8px;
+}
+.event .event-left .month {
+  font-size: 16px;
+  font-weight: normal;
+}
+.event .event-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+}
+.event .event-right .event-title {
+  font-size: 24px;
+  margin: 24px 0 10px 0;
+  text-transform: uppercase;
+}
+.event .event-right .event-timing {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 8px;
+  border-radius: 16px;
+  margin: 24px 0;
+  font-size: 14px;
+
+}
+.merchandise{
+  background-color: Black;
+
+}
+.col-1{
+  float:left;
+  width: 30%;
+  padding: 15px;
+  overflow: auto;
+
+}
+.col-1 img{
+  height: 220px;
+}
+.buttons{
+  margin: 5% 3% 5% 0;
+  background-color: Black;
+  color: gold;
+}
+.small-container{
+  max-width: 1080px;
+  margin:auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  overflow: auto;
+}
+.footer{
+text-align: center;
+background-color: black;
+position: relative;
+height: 100px;
+margin: -100px;
+clear:both;
+padding: 50px 0 20px;
+}
+.copyright {
+  color: gold;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
